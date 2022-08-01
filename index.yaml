@@ -11,7 +11,7 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-01T09:36:39.293051407-07:00"
+    created: "2022-08-01T09:44:03.806788486-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
     digest: c89c0d47c3e9c461af0c23fa72553129a51f8ca8e1a5872a3e41ea52712abc12
     home: https://github.com/weaveworks/profiles-catalog
@@ -27,6 +27,6 @@ entries:
     - https://github.com/weaveworks/policy-agent
     type: application
     urls:
-    - weave-policy-agent-0.3.0.tgz
+    - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-01T09:36:39.291688797-07:00"
+generated: "2022-08-01T09:44:03.801050662-07:00"
