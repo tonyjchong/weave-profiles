@@ -11,10 +11,10 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-01T11:39:43.398994002-07:00"
+    created: "2022-08-01T12:19:59.967415773-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
-    digest: 66fca1c4b013ff39321e7cb71cc869adcb9dd0f3884903c94892bea0cb767756
-    home: https://github.com/weaveworks/profiles-catalog
+    digest: cdf173ca6e0a8faa1f874bed66dda8cd0de81eeaca9355af9db57cd0870998c1
+    home: https://github.com/tonyjchong/weave-profiles - https://github.com/weaveworks/policy-agent
     icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26name=logo-02-Dec-18-2020-11-24-41-75-AM.png
     keywords:
     - policy
@@ -23,11 +23,9 @@ entries:
     - email: support@weave.works
       name: Weaveworks
     name: weave-policy-agent
-    sources:
-    - https://github.com/weaveworks/policy-agent
     type: application
     urls:
-    - weave-policy-agent-0.3.1.tgz
+    - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.1.tgz
     version: 0.3.1
   - annotations:
       weave.works/category: Policy
@@ -39,10 +37,10 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-01T11:39:43.396405785-07:00"
+    created: "2022-08-01T12:19:59.966201155-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
-    digest: c89c0d47c3e9c461af0c23fa72553129a51f8ca8e1a5872a3e41ea52712abc12
-    home: https://github.com/weaveworks/profiles-catalog
+    digest: 4bd55d577acac8c5e47068bb1bebb9df26b0b81448387cbdcaf28154fa4a2b20
+    home: https://github.com/tonyjchong/weave-profiles - https://github.com/weaveworks/policy-agent
     icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26name=logo-02-Dec-18-2020-11-24-41-75-AM.png
     keywords:
     - policy
@@ -51,10 +49,8 @@ entries:
     - email: support@weave.works
       name: Weaveworks
     name: weave-policy-agent
-    sources:
-    - https://github.com/weaveworks/policy-agent
     type: application
     urls:
-    - weave-policy-agent-0.3.0.tgz
+    - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-01T11:39:43.392352182-07:00"
+generated: "2022-08-01T12:19:59.964503216-07:00"
