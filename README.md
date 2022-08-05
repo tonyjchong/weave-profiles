@@ -7,6 +7,5 @@
 7. `helm dependency update`
 8. `cd ../..`
 9. `helm package charts/cert-manager`
-10. `helm repo index --url https://<subdomain>.github.io/weave-profiles/ ./charts`
-11. `helm repo index --url https://<subdomain>.github.io/weave-profiles/ .`
-12. git add and push everything up to `main`
+10. `helm repo index --url https://<subdomain>.github.io/weave-profiles/ .`
+11. git add and push everything up to `main`

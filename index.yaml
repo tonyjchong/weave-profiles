@@ -1,5 +1,43 @@
 apiVersion: v1
 entries:
+  cert-manager:
+  - annotations:
+      weave.works/category: Certificate
+      weave.works/layer: layer-0
+      weave.works/links: |
+        - name: Chart Sources
+          url: https://charts.jetstack.io
+        - name: Upstream Project
+          url: https://github.com/jetstack/cert-manager
+      weave.works/operator: "true"
+      weave.works/profile: cert-manager
+      weave.works/profile-ci: '- "gke"'
+    apiVersion: v2
+    created: "2022-08-04T21:08:13.57896075-07:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.8.0
+    description: A Weaveworks Helm chart for the Certificate Profile
+    digest: 7812904828b588fe960372df4673c4b7a9b11baae34edd444f5be41598f8bd0a
+    home: https://github.com/tonyjchong/weave-profiles
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@weave.works
+      name: Weaveworks
+    name: cert-manager
+    sources:
+    - https://charts.jetstack.io
+    type: application
+    urls:
+    - https://tonyjchong.github.io/weave-profiles/cert-manager-0.0.8.tgz
+    version: 0.0.8
   weave-policy-agent:
   - annotations:
       weave.works/category: Policy
@@ -11,9 +49,9 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-04T20:27:55.524021559-07:00"
+    created: "2022-08-04T21:08:13.580605584-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
-    digest: c08a8cad4fac9cc97014fad4e7114c9110e42fed9c01063f25b95b7358a9e568
+    digest: 47edb3426b281a7b7c8f3c3b5faccdae405491305664ac62af3552e5180474b2
     home: https://github.com/tonyjchong/weave-profiles
     icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26name=logo-02-Dec-18-2020-11-24-41-75-AM.png
     keywords:
@@ -29,57 +67,4 @@ entries:
     urls:
     - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.1.tgz
     version: 0.3.1
-  - annotations:
-      weave.works/category: Policy
-      weave.works/layer: layer-1
-      weave.works/links: |
-        - name: Upstream Project
-          url: https://github.com/weaveworks/policy-agent
-      weave.works/operator: "true"
-      weave.works/profile: weave-policy
-    apiVersion: v1
-    appVersion: "1.0"
-    created: "2022-08-04T20:27:55.522763876-07:00"
-    description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
-    digest: 4bd55d577acac8c5e47068bb1bebb9df26b0b81448387cbdcaf28154fa4a2b20
-    home: https://github.com/tonyjchong/weave-profiles - https://github.com/weaveworks/policy-agent
-    icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26name=logo-02-Dec-18-2020-11-24-41-75-AM.png
-    keywords:
-    - policy
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: support@weave.works
-      name: Weaveworks
-    name: weave-policy-agent
-    type: application
-    urls:
-    - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.0.tgz
-    version: 0.3.0
-  cert-manager:
-  - annotations:
-      artifacthub.io/prerelease: "false"
-      artifacthub.io/signKey: |
-        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
-        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
-    apiVersion: v1
-    appVersion: v1.8.0
-    created: "2022-08-04T20:58:53.182315448-07:00"
-    description: A Helm chart for cert-manager
-    digest: 74fac259e75fa8230328d1223882f3470dc49377e8c548384b4680dca2d596ce
-    home: https://github.com/cert-manager/cert-manager
-    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
-    keywords:
-    - cert-manager
-    - kube-lego
-    - letsencrypt
-    - tls
-    maintainers:
-    - email: cert-manager-maintainers@googlegroups.com
-      name: cert-manager-maintainers
-    name: cert-manager
-    sources:
-    - https://github.com/cert-manager/cert-manager
-    urls:
-    - https://tonyjchong.github.io/weave-profiles/charts/cert-manager-v1.8.0.tgz
-    version: v1.8.0
-generated: "2022-08-04T20:58:53.178647219-07:00"
+generated: "2022-08-04T21:08:13.575121975-07:00"
