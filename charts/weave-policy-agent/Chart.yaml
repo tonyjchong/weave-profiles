@@ -8,6 +8,7 @@ icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26
 type: application
 
 home: https://github.com/tonyjchong/weave-profiles # Change this to your own repo URL
+sources: 
   - https://github.com/weaveworks/policy-agent
 
 keywords:

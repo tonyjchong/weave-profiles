@@ -11,10 +11,10 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-01T12:19:59.967415773-07:00"
+    created: "2022-08-04T20:27:55.524021559-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
-    digest: cdf173ca6e0a8faa1f874bed66dda8cd0de81eeaca9355af9db57cd0870998c1
-    home: https://github.com/tonyjchong/weave-profiles - https://github.com/weaveworks/policy-agent
+    digest: c08a8cad4fac9cc97014fad4e7114c9110e42fed9c01063f25b95b7358a9e568
+    home: https://github.com/tonyjchong/weave-profiles
     icon: https://www.magalix.com/hubfs/Imported%20images/logo-02.png%3Fwidth=560%26name=logo-02-Dec-18-2020-11-24-41-75-AM.png
     keywords:
     - policy
@@ -23,6 +23,8 @@ entries:
     - email: support@weave.works
       name: Weaveworks
     name: weave-policy-agent
+    sources:
+    - https://github.com/weaveworks/policy-agent
     type: application
     urls:
     - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.1.tgz
@@ -37,7 +39,7 @@ entries:
       weave.works/profile: weave-policy
     apiVersion: v1
     appVersion: "1.0"
-    created: "2022-08-01T12:19:59.966201155-07:00"
+    created: "2022-08-04T20:27:55.522763876-07:00"
     description: A Weaveworks Helm chart for Kubernetes to configure the policy agent
     digest: 4bd55d577acac8c5e47068bb1bebb9df26b0b81448387cbdcaf28154fa4a2b20
     home: https://github.com/tonyjchong/weave-profiles - https://github.com/weaveworks/policy-agent
@@ -53,4 +55,4 @@ entries:
     urls:
     - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-01T12:19:59.964503216-07:00"
+generated: "2022-08-04T20:27:55.521409037-07:00"
