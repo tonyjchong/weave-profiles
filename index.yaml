@@ -55,4 +55,31 @@ entries:
     urls:
     - https://tonyjchong.github.io/weave-profiles/weave-policy-agent-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-04T20:27:55.521409037-07:00"
+  cert-manager:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: v1.8.0
+    created: "2022-08-04T20:58:53.182315448-07:00"
+    description: A Helm chart for cert-manager
+    digest: 74fac259e75fa8230328d1223882f3470dc49377e8c548384b4680dca2d596ce
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://tonyjchong.github.io/weave-profiles/charts/cert-manager-v1.8.0.tgz
+    version: v1.8.0
+generated: "2022-08-04T20:58:53.178647219-07:00"
