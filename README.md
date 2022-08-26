@@ -1,10 +1,8 @@
-5. `helm package charts/**`
-6. `cd charts/cert-manager`
-7. `helm dependency update`
-8. `helm package charts/cert-manager`
-9.  `helm repo index --url https://<subdomain>.github.io/weave-profiles/ .`
+# How to set up a helm repo using GitHub Pages
 
-
+1. https://harness.io/blog/helm-chart-repo (Step 1 - 3)
+2. Get the right GitHub actions from the original repo or copy the actions here
+  
 ## Usage
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
@@ -25,3 +23,10 @@ To install the <chart-name> chart:
 To uninstall the chart:
 
     helm delete my-<chart-name>
+
+
+## Test
+```
+helm repo add tony https://tonyjchong.github.io/weave-profiles
+helm search repo tony
+helm install 
