@@ -38,6 +38,17 @@ entries:
     urls:
     - cert-manager-0.0.8.tgz
     version: 0.0.8
+  pci-policies:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-03T20:26:56.022455982Z"
+    description: A Helm chart for Kubernetes
+    digest: cb2fbd9a8683c4c6c6f97d6b479cdf52c25de1edd9aeaae09e06e0d6f3fecb4a
+    name: pci-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/pci-policies-0.1.0/pci-policies-0.1.0.tgz
+    version: 0.1.0
   weave-policy-agent:
   - annotations:
       weave.works/category: Policy
