@@ -44,7 +44,7 @@ jobs:
         uses: stecky/yet-another-chart-releaser-action@v1
         with:
           charts_dir: charts
-          charts_repo_url: https://raw.githubusercontent.com/weaveworks/profiles-catalog/gh-pages/
+          charts_repo_url: https://raw.githubusercontent.com/tonyjchong/profiles-catalog/gh-pages/
         env:
           YACR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           #CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
