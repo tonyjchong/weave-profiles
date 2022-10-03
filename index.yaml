@@ -39,7 +39,11 @@ entries:
     - cert-manager-0.0.8.tgz
     version: 0.0.8
   pci-policies:
-  - apiVersion: v2
+  - annotations:
+      weave.works/category: Policy
+      weave.works/layer: layer-2
+      weave.works/profile: pci-policies
+    apiVersion: v2
     appVersion: 1.16.0
     created: "2022-10-03T20:26:56.022455982Z"
     description: A Helm chart for Kubernetes
