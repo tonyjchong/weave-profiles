@@ -40,6 +40,20 @@ entries:
     version: 0.0.8
   pci-policies:
   - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: pci-policies
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-04T18:01:35.349442644Z"
+    description: A Helm chart for Kubernetes
+    digest: 92c94cd565e8cf7d6785b9db05787a7b3ef34d90c8bc95c42d9d43025fab6516
+    name: pci-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/pci-policies-0.1.1/pci-policies-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       weave.works/category: Policy
       weave.works/layer: layer-2
       weave.works/profile: pci-policies
