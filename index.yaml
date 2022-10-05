@@ -38,7 +38,51 @@ entries:
     urls:
     - cert-manager-0.0.8.tgz
     version: 0.0.8
+  hipaa-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: hipaa-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-05T16:53:51.489055049Z"
+    description: A Helm chart for Kubernetes
+    digest: 646a2ca939c00d886a21833e61194bbcd21108db1df4410f9ab2d4639c404902
+    name: hipaa-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/hipaa-policies-0.1.0/hipaa-policies-0.1.0.tgz
+    version: 0.1.0
+  nist800-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: nist800-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-05T16:53:51.640423913Z"
+    description: A Helm chart for Kubernetes
+    digest: c247e2dd9dc6021cfc00187a2b1344e3d5bd8c315c720d23ae8fcd658e685934
+    name: nist800-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/nist800-policies-0.1.0/nist800-policies-0.1.0.tgz
+    version: 0.1.0
   pci-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: pci-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-05T16:53:51.798918744Z"
+    description: A Helm chart for Kubernetes
+    digest: 487b45258870dc34baff7c4819ac502bea8796d4d5eec1cbae38140d660ece83
+    name: pci-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/pci-policies-0.1.2/pci-policies-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       weave.works/category: Policies
       weave.works/layer: layer-2
@@ -66,6 +110,21 @@ entries:
     type: application
     urls:
     - https://github.com/tonyjchong/weave-profiles/releases/download/pci-policies-0.1.0/pci-policies-0.1.0.tgz
+    version: 0.1.0
+  soc2-policies:
+  - annotations:
+      weave.works/category: Policies
+      weave.works/layer: layer-2
+      weave.works/profile: soc2-policies
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-05T16:53:51.938947256Z"
+    description: A Helm chart for Kubernetes
+    digest: 4d5e98a374652967172b7e8593170ac5f5ee6f81064f1b6c923d42dcfd90df19
+    name: soc2-policies
+    type: application
+    urls:
+    - https://github.com/tonyjchong/weave-profiles/releases/download/soc2-policies-0.1.0/soc2-policies-0.1.0.tgz
     version: 0.1.0
   weave-policy-agent:
   - annotations:
