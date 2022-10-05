@@ -1,7 +1,7 @@
 
 
 policy-agent:
-  image: magalixcorp/policy-agent
+  image: weaveworks/policy-agent
   failurePolicy: Ignore
 
   # If you don't want to use cert-manager, set useCertManager to false and provide your own certs
